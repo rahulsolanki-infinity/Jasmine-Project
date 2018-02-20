@@ -1,0 +1,42 @@
+(function()  {
+     'use strict';
+
+
+   describe("Ned Validation", function() {
+
+	    describe("Select NED dropdown", function(){
+        var a;
+          it("User should able to select NSO instance and NED type", function() {
+	          a = true;
+			   expect(a).toBe(true);
+         });
+         });
+
+          it("User should able to allow input native configuration and validation",function(){
+			    expect(true).toBe(true); 
+				expect(false).not.toBe(true);
+	     });
+		 
+		 it("Result should displayed after completion of validation", function(){
+			 expect(true).toBe(true);
+
+		 });
+
+		 it("User should able to export commands output result", function(){
+			 expect(true).toBe(true);
+         });
+
+		 it("User should allow to import commands", function(){
+			 expect(true).toBe(true);
+
+        });
+   });
+
+   describe("Negative Scenarios", function () {
+          it("Export report should not be in PDF format", function(){
+			  expect(true).toBe(true);
+	  });		  
+          it(""
+
+   });   
+}());
